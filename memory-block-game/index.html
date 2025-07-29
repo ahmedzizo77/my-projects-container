@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Block Game</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="control-buttons">
+      <span>Start Game</span>
+    </div>
+    <div class="info-container">
+      <div class="name">Hello <span></span></div>
+      <div class="tries">Wrong tries <span>0</span></div>
+      <div class="timer"><span id="time">0</span>s</div>
+      <button class="reset-button" id="reset-game">Reset game</button>
+    </div>
+    <div class="memory-game-blocks">
+      <div class="game-block" data-name="avatar-01">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-01.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-01">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-01.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-02">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-02.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-02">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-02.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-03">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-03.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-03">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-03.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-04">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-04.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-04">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-04.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-05">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-05.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-05">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-05.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-06">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-06.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="avatar-06">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/avatar-06.png" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-01">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-01">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-01.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-02">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-02.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-02">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-02.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-03">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-03.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-03">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-03.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-04">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-04.jpg" alt="" />
+        </div>
+      </div>
+      <div class="game-block" data-name="team-04">
+        <div class="front face">
+          <img src="" alt="" />
+        </div>
+        <div class="back face">
+          <img src="image/team-04.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="congrats-screen" id="congrats">
+      <div class="message">
+        congrats you win the game in
+        <span id="final-time"></span>seconds
+        <button class="reset-button" id="restart">restart</button>
+      </div>
+    </div>
+    <div class="game-over-screen" id="game-over">
+      <div class="message">
+        <p id="game-over-text">Game Over!</p>
+        <button class="reset-button" id="game-over-restart">Restart</button>
+      </div>
+    </div>
+    <audio id="success" src="audio/success-340660.mp3"></audio>
+    <audio id="fail" src="audio/fail-144746.mp3"></audio>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.control-buttons {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #1d3845e0;
+  z-index: 2;
+}
+.control-buttons span {
+  background-color: orangered;
+  color: white;
+  display: block;
+  font-size: 24px;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  z-index: 1;
+}
+.info-container {
+  width: 1080px;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid rgb(61, 188, 243);
+  margin: 10px auto 0;
+  padding: 10px;
+}
+.memory-game-blocks {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  /* gap: 10px */
+}
+.memory-game-blocks.no-click {
+  pointer-events: none;
+}
+.memory-game-blocks .game-block {
+  height: 200px;
+  transition: transform 0.5s ease-in-out;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  flex: 1 0 200px;
+  margin: 0 10px 20px;
+}
+.game-block .front {
+  /* background-color: #333; */
+  line-height: 200px;
+  background: tomato;
+  /* text-align: center; */
+}
+.game-block .front::before {
+  content: "!";
+  font-size: 140px;
+  font-weight: bold;
+  color: #f6f6f6;
+}
+.game-block .back {
+  background-color: #697d8b;
+  transform: rotateY(180deg);
+  /* background: teal; */
+}
+.memory-game-blocks .game-block .back img {
+  width: 140px;
+  height: 140px;
+  margin-top: 30px;
+}
+.game-block .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border: 5px solid rgb(61, 188, 243);
+  text-align: center;
+}
+.game-block.wrong {
+  animation: shake 0.3s;
+}
+.memory-game-blocks .game-block.is-flipped,
+.memory-game-blocks .game-block.has-match {
+  transform: rotateY(180deg);
+}
+.congrats-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(29, 56, 69, 0.9);
+  z-index: 999;
+}
+
+.congrats-screen.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.congrats-screen.active .message {
+  animation: win-message 0.8s ease-in-out;
+}
+.congrats-screen .message {
+  color: white;
+  min-width: 300px;
+  display: block;
+  background-color: orangered;
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+.reset-button {
+  margin-top: 15px;
+  font-size: 20px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+.reset-button:hover {
+  background: darkred;
+}
+.game-over-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(29, 56, 69, 0.9);
+  z-index: 999;
+}
+.game-over-screen .message {
+  color: white;
+  min-width: 300px;
+  display: block;
+  background-color: rgb(32, 9, 1);
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+}
+.game-over-screen.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes win-message {
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes shake {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
