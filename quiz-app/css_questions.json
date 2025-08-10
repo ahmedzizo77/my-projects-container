@@ -1,0 +1,402 @@
+[
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  },
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Creative Style Sheets",
+    "answer_2": "Cascading Style Sheets",
+    "answer_3": "Colorful Style Sheets",
+    "answer_4": "Computer Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which property is used to change the background color?",
+    "answer_1": "bgcolor",
+    "answer_2": "color",
+    "answer_3": "background-color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property controls the text size?",
+    "answer_1": "font-size",
+    "answer_2": "text-size",
+    "answer_3": "size",
+    "answer_4": "font-style",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "How do you make a class selector in CSS?",
+    "answer_1": "#classname",
+    "answer_2": ".classname",
+    "answer_3": "*classname",
+    "answer_4": "$classname",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "How do you insert a comment in a CSS file?",
+    "answer_1": "// this is a comment",
+    "answer_2": "<!-- this is a comment -->",
+    "answer_3": "/* this is a comment */",
+    "answer_4": "# this is a comment",
+    "right_answer": "/* this is a comment */"
+  }
+]

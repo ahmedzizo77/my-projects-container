@@ -1,0 +1,402 @@
+[
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  },
+  {
+    "title": "What is the correct syntax to output 'Hello World' in JavaScript?",
+    "answer_1": "echo('Hello World');",
+    "answer_2": "print('Hello World');",
+    "answer_3": "console.log('Hello World');",
+    "answer_4": "printf('Hello World');",
+    "right_answer": "console.log('Hello World');"
+  },
+  {
+    "title": "How do you declare a JavaScript variable?",
+    "answer_1": "v myVar;",
+    "answer_2": "let myVar;",
+    "answer_3": "variable myVar;",
+    "answer_4": "var: myVar;",
+    "right_answer": "let myVar;"
+  },
+  {
+    "title": "Which symbol is used for single-line comments in JavaScript?",
+    "answer_1": "#",
+    "answer_2": "//",
+    "answer_3": "<!--",
+    "answer_4": "**",
+    "right_answer": "//"
+  },
+  {
+    "title": "Which method converts JSON data to a JavaScript object?",
+    "answer_1": "JSON.toObject()",
+    "answer_2": "JSON.parse()",
+    "answer_3": "JSON.stringify()",
+    "answer_4": "parse.JSON()",
+    "right_answer": "JSON.parse()"
+  },
+  {
+    "title": "What keyword is used to define a function in JavaScript?",
+    "answer_1": "function",
+    "answer_2": "def",
+    "answer_3": "func",
+    "answer_4": "define",
+    "right_answer": "function"
+  }
+]
