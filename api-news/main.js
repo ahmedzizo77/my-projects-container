@@ -1,4 +1,5 @@
-const apiKeyValue = "8002beee836240cc88dedb118cc38a71";
+const apiKeyValue = "YOUR_API_KEY_HERE";
+
 let blogContainer = document.querySelector(".container");
 const searchField = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
