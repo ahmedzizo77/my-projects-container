@@ -1,17 +1,17 @@
-const apiKeyValue = "YOUR_API_KEY_HERE";
+const apiKeyValue = "enter your api key";
 
 let blogContainer = document.querySelector(".container");
 const searchField = document.getElementById("search-input");
 const searchButton = document.getElementById("search-button");
 
-async function fetchNews() {
+async function fetchRandomNews() {
   try {
-    const apiUrl = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=${apiKeyValue}`;
+    const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=${apiKeyValue}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
     return data.articles;
   } catch (error) {
-    console.error("error fetching news ", error);
+    console.error("error fetching news", error);
     return [];
   }
 }
@@ -19,22 +19,21 @@ searchButton.addEventListener("click", async () => {
   const query = searchField.value.trim();
   if (query != "") {
     try {
-      const articles = await fetchNewsQuery(query);
+      const articles = await fetchNewQuery(query);
       displayBlogs(articles);
     } catch (error) {
-      console.error("error fetching query", error);
+      console.error("error", error);
     }
   }
 });
-
-async function fetchNewsQuery(query) {
+async function fetchNewQuery(query) {
   try {
     const apiUrl = `https://newsapi.org/v2/everything?q=${query}&apiKey=${apiKeyValue}`;
     const response = await fetch(apiUrl);
     const data = await response.json();
     return data.articles;
   } catch (error) {
-    console.error("error fetching query news ", error);
+    console.error("error fetching query", error);
     return [];
   }
 }
@@ -43,34 +42,36 @@ function displayBlogs(articles) {
   articles.forEach((element) => {
     const blogs = document.createElement("div");
     blogs.classList.add("blog-card");
-    const img = document.createElement("img");
-    img.src = element.urlToImage;
-    img.alt = element.title;
+    const image = document.createElement("img");
+    image.src = element.urlToImage;
+    image.alt = element.title;
     const title = document.createElement("h2");
     const truncateTitle =
       element.title.length > 30
         ? element.title.slice(0, 30) + "...."
         : element.title;
     title.textContent = truncateTitle;
-    const desc = document.createElement("p");
-    const truncateDesc =
-      element.description.length > 120
-        ? element.description.slice(0, 120) + "......"
+
+    const description = document.createElement("p");
+    truncateDescription =
+      element.description.length > 100
+        ? element.description.slice(0, 100) + "...."
         : element.description;
-    desc.textContent = truncateDesc;
-    blogs.append(img, title, desc);
+    description.textContent = truncateDescription;
+    blogs.append(image, title, description);
+    blogContainer.appendChild(blogs);
     blogs.addEventListener("click", () => {
       window.open(element.url, "_blank");
     });
-    blogContainer.appendChild(blogs);
   });
 }
-
+//IIFE   Immediately Invoked Function Expression
+//expression in parentheies ()run the function immediately
 (async () => {
   try {
-    const articles = await fetchNews();
-    displayBlogs(articles);
+    const allArticles = await fetchRandomNews();
+    displayBlogs(allArticles);
   } catch (error) {
-    console.error("error fetching news ", error);
+    console.error("error fetching news", error);
   }
 })();

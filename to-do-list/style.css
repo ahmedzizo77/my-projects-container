@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f9fc;
+}
+.container {
+  margin: 0 auto;
+  flex: 1;
+}
+.container h1 {
+  text-align: center;
+  margin: 5px auto;
+  text-transform: capitalize;
+}
+.container .input-form {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+}
+.container input {
+  width: 200px;
+  border: 1px solid rgb(103, 84, 229);
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-shadow: 0 0 3px black;
+}
+.container input:focus {
+  outline: none;
+}
+.container #add-btn {
+  background-color: rgb(255, 255, 152);
+  border: 1px solid rgb(255, 255, 152);
+  padding:12px;
+  text-transform: capitalize;
+  font-size: 24px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.board {
+  padding: 20px;
+  text-align: center;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.box {
+  background-color: rgb(255, 255, 152);
+  min-height: 100px;
+  max-width: 450px;
+  border: 1px solid rgb(103, 84, 229);
+  padding: 0 15px;
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: 0 1px 3px black;
+  transition: 0.3s;
+}
+.box.over {
+  background-color: #d1d3d8;
+}
+.box h2 {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 5px;
+  margin: 5px auto;
+  background-color: rgb(209, 209, 132);
+  border-radius: 10px;
+}
+.box .card {
+  font-size: 20px;
+  background-color: beige;
+  padding: 10px 3px;
+  border-radius: 10px;
+  margin: 5px 0;
+  text-transform: capitalize;
+  cursor: grab;
+  position: relative;
+}
+.box .card:active {
+  cursor: grabbing;
+  transform: scale(1.05);
+  box-shadow: 0 1px 4px black;
+}
+.card::after {
+  content: "double click to delete";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  font-size: 10px;
+  color: rgb(62, 97, 237);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.card:hover::after {
+  opacity: 1;
+}

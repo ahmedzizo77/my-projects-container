@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto";
+}
+body {
+  background: linear-gradient(135deg, #83a8df, #c3cfe2);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  background-color: white;
+  padding: 20px;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  /* height: 300px; */
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+.main-container h1 {
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.main-container h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgb(47, 47, 153);
+  width: 40%;
+  height: 1px;
+}
+.main-container #generate-btn {
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  color: white;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.main-container .colors-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px;
+}
+@media (max-width: 767px) {
+  .colors-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+.colors-container .color-box {
+  transition: 0.3s;
+}
+.colors-container .color-box:hover {
+  transform: translateY(-3px);
+}
+.main-container .colors-container .color {
+  height: 100px;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.main-container .colors-container .color-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding: 5px;
+}
+.main-container .colors-container .hex-value {
+  color: blue;
+}
+.main-container .colors-container .color-info i {
+  cursor: pointer;
+  color: #83a8df;
+}

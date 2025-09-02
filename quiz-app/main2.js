@@ -187,7 +187,7 @@ function showResult(total) {
     answerArea.remove();
     bulletSpan.innerHTML = "";
     submitButton.remove();
-    if (rightAnswers < total / 2 && rightAnswers < total) {
+    if (rightAnswers > total / 2 && rightAnswers < total) {
       result = `<span class="good">
         you answered ${rightAnswers} from ${total}
       </span>`;
@@ -211,6 +211,7 @@ function shuffleQuestion(array) {
   }
   return shuffle;
 }
+
 // count down function
 function countDown(duration) {
   clearInterval(counter);
