@@ -1,0 +1,186 @@
+:root {
+  /* Neutrals */
+  --neutral-900: hsl(227, 75%, 14%);
+  --neutral-800: hsl(226, 25%, 17%);
+  --neutral-700: hsl(225, 23%, 24%);
+  --neutral-600: hsl(226, 11%, 37%);
+  --neutral-300: hsl(0, 0%, 78%);
+  --neutral-200: hsl(217, 61%, 90%);
+  --neutral-100: hsl(0, 0%, 93%);
+  --neutral-0: hsl(200, 60%, 99%);
+
+  /* Red */
+  --red-400: hsl(3, 86%, 64%);
+  --red-500: hsl(3, 71%, 56%);
+  --red-700: hsl(3, 77%, 44%);
+
+  /* Gradients */
+  --gradient-light: linear-gradient(180deg, #ebf2fc 0%, #eef8f9 100%);
+  --gradient-dark: linear-gradient(180deg, #040918 0%, #091540 100%);
+}
+html {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--neutral-200);
+  font-family: "Noto Sans", sans-serif;
+  padding: 1.5rem 3rem;
+}
+body.dark-mode {
+  background-color: var(--neutral-900);
+  color: var(--neutral-0);
+}
+body.dark-mode header {
+  background-color: var(--neutral-800);
+}
+body.dark-mode .logo-text{
+  fill: #fff;
+}
+
+
+body.dark-mode .extension-card {
+  background-color: var(--neutral-800);
+}
+body.dark-mode header .change-theme {
+  background-color: var(--neutral-800);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--neutral-0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  width: calc(80%);
+  margin: 0 auto 2rem;
+}
+header .change-theme {
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border-radius: 1rem;
+  border: none;
+}
+.extension {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.extension h2 {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.extension .status-buttons .button-stats {
+  border-radius: 1.6rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border: none;
+  cursor: pointer;
+}
+.extension .status-buttons button.active {
+  color: var(--neutral-0);
+  background-color: var(--red-500);
+}
+.remove-button:focus,
+.button-stats:focus,
+input[type="checkbox"]:focus {
+  outline: none;
+  border: 2px solid var(--red-400);
+  box-shadow: 0 0 0 3px var(--red-400);
+}
+.switch input:focus + .slider {
+  box-shadow: 0 0 0 3px rgba(255, 0, 0, 0.3);
+  border: 2px solid var(--red-700);
+}
+.extension-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(25rem, 1fr));
+  gap: 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  padding: 1.6rem 1rem;
+}
+.extension-container .extension-card {
+  background-color: var(--neutral-0);
+  padding: 1.6rem;
+  border-radius: 1.6rem;
+}
+.extension-card .card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.extension-card .card-footer {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.6rem 0 0;
+}
+.extension-card .card-footer .remove-button {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  background-color: var(--neutral-100);
+  border-radius: 1.6rem;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card-footer .remove-button.active {
+  background-color: var(--red-700);
+  color: var(--neutral-0);
+}
+.extension-card .card-footer .switch {
+  position: relative;
+  display: inline-block;
+  width: 4rem;
+  height: 2.5rem;
+}
+.card-footer .switch input[type="checkbox"] {
+  display: none;
+}
+.card-footer .switch .slider {
+  position: absolute;
+  background-color: var(--neutral-300);
+
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.card-footer .switch .slider::before {
+  content: "";
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  left: 3px;
+  bottom: 3px;
+  background-color: var(--neutral-0);
+  border-radius: 50%;
+  transition: 0.3s;
+}
+.card-footer .switch input:checked + .slider {
+  background-color: var(--red-700);
+  transition: 0.3s;
+}
+.card-footer .switch input:checked + .slider:hover {
+  background-color: var(--red-400);
+}
+.card-footer .switch input:checked + .slider:before {
+  transform: translateX(1.5rem);
+}
